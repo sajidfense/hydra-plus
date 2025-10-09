@@ -49,7 +49,7 @@ const mockTailLists = [
 	name: "Hydra+ Smart Water Bottle",
 	country: "US",
 	detail: "BPA-free stainless-steel bottle",
-	price: "$10",
+	price: "$19",
  },
  {
 	name: "Hydra+ Active Tee",
@@ -59,13 +59,13 @@ const mockTailLists = [
  },
  {
 	name: "Hydra+ Gym Towel",
-	country: "CA",
+	country: "US",
 	detail: "Microfiber quick-dry towel",
-	price: "$20",
+	price: "$29",
  },
  {
 	name: "Hydra+ Performance Cap",
-	country: "IE",
+	country: "US",
 	detail: "Breathable mesh cap with adjustable strap",
 	price: "$29",
  },
