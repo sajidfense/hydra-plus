@@ -1,7 +1,7 @@
 const navLinks = [
  {
 	id: "cocktails",
-	title: "Cocktails",
+	title: "Electrolytes",
  },
  {
 	id: "about",
@@ -9,7 +9,7 @@ const navLinks = [
  },
  {
 	id: "work",
-	title: "The Art",
+	title: "The Formula",
  },
  {
 	id: "contact",
@@ -19,54 +19,54 @@ const navLinks = [
 
 const cocktailLists = [
  {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
+	name: "Citrus Charge",
+	country: "Zesty Lemon & Sea Salt",
+	detail: "Sachet Box",
+	price: "$19.99",
  },
  {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
+	name: "Berry Boost",
+	country: "Wild Berries & Coconut Water",
+	detail: "Sachet Box",
+	price: "$19.99",
  },
  {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
+	name: "Tropical Surge",
+	country: "Pineapple, Mango & Citrus",
+	detail: "Sachet Box",
+	price: "$19.99",
  },
  {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
+	name: "Arctic Wave",
+	country: "Blue Raspberry & Mint",
+	detail: "Sachet Box",
+	price: "$19.99",
  },
 ];
 
 const mockTailLists = [
  {
-	name: "Tropical Bloom",
+	name: "Hydra+ Smart Water Bottle",
 	country: "US",
-	detail: "Battle",
+	detail: "BPA-free stainless-steel bottle",
 	price: "$10",
  },
  {
-	name: "Passionfruit Mint",
+	name: "Hydra+ Active Tee",
 	country: "US",
-	detail: "Battle",
+	detail: "Lightweight, moisture-wicking performance shirt",
 	price: "$49",
  },
  {
-	name: "Citrus Glow",
+	name: "Hydra+ Gym Towel",
 	country: "CA",
-	detail: "750 ml",
+	detail: "Microfiber quick-dry towel",
 	price: "$20",
  },
  {
-	name: "Lavender Fizz",
+	name: "Hydra+ Performance Cap",
 	country: "IE",
-	detail: "600 ml",
+	detail: "Breathable mesh cap with adjustable strap",
 	price: "$29",
  },
 ];
@@ -87,17 +87,17 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+ "Clean, Sugar-Free Formula",
+ "Portable & Convenient",
+ "Mediterranean-Inspired Flavors",
+ "EU-Certified Quality",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+ "Athletes who push limits",
+ "Professionals beating the midday crash",
+ "Travelers staying hydrated in heat",
+ "Everyday people who care about wellness",
 ];
 
 const storeInfo = {
@@ -137,35 +137,35 @@ const socials = [
 const allCocktails = [
  {
 	id: 1,
-	name: "Classic Mojito",
+	name: "Citrus Charge",
 	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
+	title: "A Zesty Classic That Never Fails",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Bright, tangy, and refreshing — Citrus Charge blends lemon zest with a hint of Mediterranean sea salt to deliver clean, natural hydration. It’s the taste of summer energy in every sip.",
  },
  {
 	id: 2,
-	name: "Raspberry Mojito",
+	name: "Berry Boost",
 	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
+	title: "Simple Ingredients, Bold Flavor",
 	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+	 "Sweet yet balanced, Berry Boost combines antioxidant-rich wild berries with subtle coconut water notes for smooth, refreshing recovery. It’s your go-to post-workout recharge.",
  },
  {
 	id: 3,
-	name: "Violet Breeze",
+	name: "Tropical Surge",
 	image: "/images/drink3.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Escape to the coast with Tropical Surge, a bold mix of pineapple, mango, and citrus that tastes like a holiday — minus the sugar. Hydration never felt this vibrant.",
  },
  {
 	id: 4,
-	name: "Curacao Mojito",
+	name: "Arctic Wave",
 	image: "/images/drink4.png",
 	title: "Crafted With Care, Poured With Love",
 	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+	 "Cool, crisp, and invigorating — Arctic Wave pairs blue raspberry with a minty chill for instant refreshment. The flavor built for focus, endurance, and all-day performance.",
  },
 ];
 
